@@ -1,0 +1,51 @@
+#App {
+    width: 30rem;
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    padding: 2rem;
+    font-size: 1.75rem;
+}
+
+#adviceWrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#adviceHeading {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: .2rem;
+}
+
+#adviceContent {
+    color: white;
+    text-align: center;
+}
+
+#dividerSvg {
+    position: relative;
+    top: 2rem;
+}
+
+#adviceBtn {
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    padding: 1.2rem;
+    border-radius: 50%;
+    position: relative;
+    top: 4rem;
+}
+
+.attribution {
+    font-size: .7rem;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
